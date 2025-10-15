@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <link rel="stylesheet" href="./assets/css/csscomun.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script>
+    src = "https://code.jquery.com/jquery-3.7.1.min.js"
+  </script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="row bg-info text-white">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navegador</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+              aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarBasic">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" href="./index.html">Index</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./events.html">Events</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./login.html">Login</a></li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <main>
+        <div class="row">
+          <div class="col-2 bg-primary"><!--LEFT-->
+            <ul class="list-group">
+              <li class="list-group-item active">Detalles</li>
+              <li class="list-group-item">Cambio de aceite y filtro de aceite</li>
+              <li class="list-group-item">Cambio de filtro de aire del motor</li>
+              <li class="list-group-item">Sustitucion de filtro de habitaculo</li>
+              <li class="list-group-item">Cambio de bujías</li>
+              <li class="list-group-item">Cambio de escobillas limpiaparabrisas</li>
+              <li class="list-group-item">Sustitución de batería</li>
+            </ul>
+          </div>
+          <div class="col-10">Mantenimientos Basicos
+            <div class="row">
+              <div class="col-8 mx-auto">
+                <img src="./assets/imagenes/Taller-chapa-y-pintura-optimizado.jpg" class="img-fluid my-5">
+              </div>
+            </div>
+
+            <!-- Bloque de 6 cards -->
+            <div class="row g-4 mb-5">
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100 shadow-sm">
+                  <img src="./assets/imagenes/cambio-aceite.jpeg" class="card-img-top" alt="Evento 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Cambio de aceite y filtro de aceite</h5>
+                    <p class="card-text">Solo necesitas levantar el coche, vaciar el aceite usado, cambiar el filtro y
+                      rellenar con aceite nuevo</p>
+                    <a href="detalle-evento1.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100 shadow-sm">
+                  <img src="./assets/imagenes/cambio-aire.jpeg" class="card-img-top" alt="Evento 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Cambio de filtro de aire del motor</h5>
+                    <p class="card-text">Abrir la caja del filtro, sacar el viejo y poner uno nuevo.</p>
+                    <a href="detalle-evento2.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100 shadow-sm">
+                  <img src="./assets/imagenes/filtro-habitaculo.jpeg" class="card-img-top" alt="Evento 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Sustitucion de filtro de habitaculo</h5>
+                    <p class="card-text">Muy sencillo, se suele acceder desde la guantera o zona baja del salpicadero.
+                    </p>
+                    <a href="detalle-evento3.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100 shadow-sm">
+                  <img src="./assets/imagenes/bujia.jpeg" class="card-img-top" alt="Evento 4">
+                  <div class="card-body">
+                    <h5 class="card-title">Cambio de bujías</h5>
+                    <p class="card-text">Solo hay que localizar las bujías, desenroscarlas y colocar las nuevas.</p>
+                    <a href="detalle-evento4.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100 shadow-sm">
+                  <img src="./assets/imagenes/escobillas.jpeg" class="card-img-top" alt="Evento 5">
+                  <div class="card-body">
+                    <h5 class="card-title">Cambio de escobillas limpiaparabrisas</h5>
+                    <p class="card-text">Se sustituyen en minutos y mejoran la visibilidad.</p>
+                    <a href="detalle-evento5.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card h-100 shadow-sm">
+                  <img src="./assets/imagenes/bateria.jpeg" class="card-img-top" alt="Evento 6">
+                  <div class="card-body">
+                    <h5 class="card-title">Sustitución de batería</h5>
+                    <p class="card-text">Desconectar la batería vieja, sacar y colocar la nueva, luego volver a
+                      conectar.</p>
+                    <a href="detalle-evento6.html" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+    </div>
+    </main>
+  </div>
+
+  <footer class="row bg-info text-center py-3 mt-auto">
+    <div class="col-12">&copy; 2025 Talleres Autónomos</div>
+  </footer>
+  </div>
+</body>
+
+</html>
